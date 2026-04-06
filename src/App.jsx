@@ -81,6 +81,7 @@ function App() {
         >
           <Route path="dashboard" element={<ArtistDashboard />} />
           <Route path="settings" element={<ArtistSettings />} />
+          <Route path="artist" element={<ArtistLayout />} />
         </Route>
 
         {/* --- ADMIN ROUTES (PROTECTED) --- */}
