@@ -20,9 +20,6 @@ import Podcast from "./pages/Podcast";
 import TopArtist from "./pages/TopArtist";
 
 // --- ARTIST IMPORTS ---
-import ArtistLayout from "./artist/ArtistLayout";
-import ArtistDashboard from "./artist/ArtistDashboard";
-import ArtistSettings from "./artist/ArtistSettings";
 
 // --- LOGIN PAGE ---
 import LoginPage from "./pages/LoginPage";
@@ -44,6 +41,9 @@ import Top10IndiaAdmin from "./admin/Top10IndiaAdmin";
 
 // --- PROTECTED ROUTE IMPORT (Security ke liye) ---
 import ProtectedRoute from "./components/ProtectedRoute";
+import ArtistLayout from "./Artist/ArtistLayout";
+import ArtistDashboard from "./Artist/ArtistDashboard";
+import ArtistSettings from "./Artist/ArtistSettings";
 
 function App() {
   return (
