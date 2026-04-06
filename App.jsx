@@ -43,7 +43,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 // --- ARTIST IMPORTS ---
 // FIXED: Changed "./Artist/..." to "./artist/..." (Lowercase)
-import ArtistLayout from "./artist/ArtistLayout";
+import ArtistLayout from "./artist/ArtistLayout"; 
 import ArtistDashboard from "./artist/ArtistDashboard";
 import ArtistSettings from "./artist/ArtistSettings";
 
