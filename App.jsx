@@ -19,18 +19,17 @@ import TopPlayList from "./pages/TopPlayList";
 import Podcast from "./pages/Podcast";
 import TopArtist from "./pages/TopArtist";
 
-// --- ARTIST IMPORTS ---
-
 // --- LOGIN PAGE ---
 import LoginPage from "./pages/LoginPage";
 
 // --- ADMIN COMPONENTS ---
-import AdminLayout from "./Admin/AdminLayout";
-import AdminDashboard from "./Admin/AdminDashboard";
+// FIXED: Changed "./Admin/..." to "./admin/..." (Lowercase)
+import AdminLayout from "./admin/AdminLayout";
+import AdminDashboard from "./admin/AdminDashboard";
 import ArtistManager from "./admin/ArtistManager";
-import SongManager from "./Admin/SongManager";
+import SongManager from "./admin/SongManager";
 
-// --- ADMIN PAGE IMPORTS (UPDATED) ---
+// --- ADMIN PAGE IMPORTS ---
 import TopPlaylistAdmin from "./admin/TopPlaylistAdmin";
 import TopChartAdmin from "./admin/TopChartAdmin";
 import TrendingSongsAdmin from "./admin/TrendingSongsAdmin";
@@ -39,11 +38,14 @@ import TrendingSongsAdmin from "./admin/TrendingSongsAdmin";
 import LatestReleasesAdmin from "./admin/LatestReleasesAdmin";
 import Top10IndiaAdmin from "./admin/Top10IndiaAdmin";
 
-// --- PROTECTED ROUTE IMPORT (Security ke liye) ---
+// --- PROTECTED ROUTE IMPORT ---
 import ProtectedRoute from "./components/ProtectedRoute";
-import ArtistLayout from "./Artist/ArtistLayout";
-import ArtistDashboard from "./Artist/ArtistDashboard";
-import ArtistSettings from "./Artist/ArtistSettings";
+
+// --- ARTIST IMPORTS ---
+// FIXED: Changed "./Artist/..." to "./artist/..." (Lowercase)
+import ArtistLayout from "./artist/ArtistLayout";
+import ArtistDashboard from "./artist/ArtistDashboard";
+import ArtistSettings from "./artist/ArtistSettings";
 
 function App() {
   return (
